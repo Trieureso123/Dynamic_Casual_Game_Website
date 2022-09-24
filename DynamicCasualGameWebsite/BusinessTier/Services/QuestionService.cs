@@ -2,6 +2,7 @@
 using AutoMapper.QueryableExtensions;
 using BusinessTier.Commons;
 using BusinessTier.ViewModels;
+using DataAccess.Models;
 using DataAccess.Repositories;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,6 @@ namespace BusinessTier.Services
     public interface IQuestionService
     {
         BaseResponsePagingViewModel<QuestionResponeModel> GetAllQuestion(QuestionResponeModel filter, PagingModel paging);
-        QuestionResponeModel GetQuestionById(int id);
     }
 
     public class QuestionService : IQuestionService
@@ -51,15 +51,5 @@ namespace BusinessTier.Services
             return null;
         }
 
-        public QuestionResponeModel GetQuestionById(int id)
-        {
-            var question = _questionRepository.Get().SingleOrDefault(x => x.IdQuestion == id);
-            if (question == null)
-            {
-                return null;
-            }
-
-            return _mapper.Map<QuestionResponeModel>(question);
-        }
     }
 }

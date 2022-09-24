@@ -11,6 +11,9 @@ namespace WebAPI.AppStart
             services.AddScoped<IQuestionService, QuestionService>();
             services.AddScoped<IQuestionRepository, QuestionRepositories>();
 
+            services.AddScoped<IFeedbackService, FeedbackService>();
+            services.AddScoped<IFeedbackRepositories, FeedbackRepositories>();
+            
             return services;
         }
     }

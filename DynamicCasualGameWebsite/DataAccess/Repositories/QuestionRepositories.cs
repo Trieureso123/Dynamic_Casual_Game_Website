@@ -42,9 +42,9 @@ namespace DataAccess.Repositories
             throw new NotImplementedException();
         }
 
-        public Question Get<TKey>(TKey id)
+        public Question Get<TKey>(TKey name)
         {
-            return _context.Questions.Find(id);
+            return _context.Questions.Find(name);
         }
 
         public Task<Question> GetAsync<TKey>(TKey id)

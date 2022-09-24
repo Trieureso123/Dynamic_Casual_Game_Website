@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m/NrJ/t7r9Su0RkH1BsPmaNVp5Q4FxXCKSGlmw8pwoj16HeslBE2L/00wVnNX7DQSVJte2ruwlHFA0DlOoFNvg==",
+  "dgSpecHash": "u+eNgD3c+8EYSgCJ1MfuT1HJQ/2wyn2AosbphXO+J9ecAcMha/SJFIFPsQiuae9gOvRFBYAMKOZ9BFK3nAS6QQ==",
   "success": true,
-  "projectFilePath": "D:\\OJT_Project\\DynamicCasualGameWebsite\\BusinessTier\\BusinessTier.csproj",
+  "projectFilePath": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\BusinessTier\\BusinessTier.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hai Trieu\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Hai Trieu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

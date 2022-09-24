@@ -6236,11 +6236,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OJT_Project\\DynamicCasualGameWebsite\\BusinessTier\\BusinessTier.csproj",
+      "projectUniqueName": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\BusinessTier\\BusinessTier.csproj",
       "projectName": "BusinessTier",
-      "projectPath": "D:\\OJT_Project\\DynamicCasualGameWebsite\\BusinessTier\\BusinessTier.csproj",
+      "projectPath": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\BusinessTier\\BusinessTier.csproj",
       "packagesPath": "C:\\Users\\Hai Trieu\\.nuget\\packages\\",
-      "outputPath": "D:\\OJT_Project\\DynamicCasualGameWebsite\\BusinessTier\\obj\\",
+      "outputPath": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\BusinessTier\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6261,8 +6261,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\OJT_Project\\DynamicCasualGameWebsite\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\OJT_Project\\DynamicCasualGameWebsite\\DataAccess\\DataAccess.csproj"
+            "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\DataAccess\\DataAccess.csproj"
             }
           }
         }

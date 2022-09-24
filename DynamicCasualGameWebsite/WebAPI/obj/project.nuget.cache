@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HqbQgogWkwrunPO6N3BiOMc6kz89RErLnFToaV5LXS40ZR1vbLZoz2bkx0m9S7SM/VvYWpa50VfrFXyA7qtdjA==",
+  "dgSpecHash": "NABp9ze2gyZTrOTvUMOn0z3DJVoZi4U65HHc5iPaxeTwohusjMKc+dossxOMSY2+PRC/mSo4gwa10BjmUcoTCg==",
   "success": true,
-  "projectFilePath": "D:\\OJT_Project\\DynamicCasualGameWebsite\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hai Trieu\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Hai Trieu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

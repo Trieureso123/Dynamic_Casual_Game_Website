@@ -11,6 +11,7 @@ namespace WebAPI.AppStart
             MapperConfiguration mapperConfiguration = new MapperConfiguration(mc =>
             {
                 mc.ConfigQuestionModule();
+                mc.ConfigFeedbackModule();
             });
             IMapper mapper = mapperConfiguration.CreateMapper();
             services.AddSingleton(mapper);

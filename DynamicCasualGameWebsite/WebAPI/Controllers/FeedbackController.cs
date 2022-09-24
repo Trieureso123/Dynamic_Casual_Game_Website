@@ -7,12 +7,12 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class QuestionController : ControllerBase
+    public class FeedbackController : ControllerBase
     {
-        private readonly IQuestionService _service;
-        public QuestionController(IQuestionService service)
+        private readonly IFeedbackService _service;
+        public FeedbackController(IFeedbackService service)
         {
-            _service = service; 
+            _service = service;
         }
 
 
@@ -24,12 +24,10 @@ namespace WebAPI.Controllers
         /// <param name="paging"></param>
         /// <returns></returns>
         [HttpGet]
-        public ActionResult<BaseResponsePagingViewModel<QuestionResponeModel>> GetCourses([FromQuery] QuestionResponeModel filter,
+        public ActionResult<BaseResponsePagingViewModel<FeedbackResponeModel>> GetCourses([FromQuery] FeedbackResponeModel filter,
             [FromQuery] PagingModel paging)
         {
-            return Ok(_service.GetAllQuestion(filter, paging));
+            return Ok(_service.GetAllFeedback(filter, paging));
         }
-
-
     }
 }
