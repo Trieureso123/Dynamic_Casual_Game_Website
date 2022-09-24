@@ -8,7 +8,6 @@ namespace BusinessTier.RequestModels
 {
     public class FeedbackRequestModel
     {
-        public int IdFeedback { get; set; }
         public int? IdLesson { get; set; }
         public string LessonFeedback { get; set; }
         public string PhoneNumber { get; set; }

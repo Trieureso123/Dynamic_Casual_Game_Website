@@ -24,7 +24,13 @@ namespace DataAccess.Repositories
 
         public Feedback Create(Feedback entity)
         {
-            throw new NotImplementedException();
+            if (entity.IdLesson <= 0 || entity.LessonFeedback == "" || entity.PhoneNumber == "" || entity.Rating <= 0 && entity.Rating > 5)
+            {
+                return null;
+            }
+            var result = _context.Feedbacks.Add(entity);
+            _context.SaveChanges();
+            return result.Entity;
         }
 
         public Feedback Delete(Feedback entity)

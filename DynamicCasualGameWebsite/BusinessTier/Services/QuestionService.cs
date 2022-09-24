@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using BusinessTier.Commons;
+using BusinessTier.RequestModels;
 using BusinessTier.ViewModels;
 using DataAccess.Models;
 using DataAccess.Repositories;
@@ -15,6 +16,7 @@ namespace BusinessTier.Services
     public interface IQuestionService
     {
         BaseResponsePagingViewModel<QuestionResponeModel> GetAllQuestion(QuestionResponeModel filter, PagingModel paging);
+        QuestionResponeModel CreateQuestion(QuestionRequestModel request);
     }
 
     public class QuestionService : IQuestionService
@@ -26,6 +28,19 @@ namespace BusinessTier.Services
         {
             _questionRepository = questionRepository;
             _mapper = mapper;
+        }
+
+        public QuestionResponeModel CreateQuestion(QuestionRequestModel request)
+        {
+            if (request == null)
+            {
+                return null;
+            }
+            else
+            {
+                var question = _mapper.Map<Question>(request); // đưa data mới vừa add vào model bằng Mapps
+                return _mapper.Map<QuestionResponeModel>(_questionRepository.Create(question));
+            }
         }
 
         public BaseResponsePagingViewModel<QuestionResponeModel> GetAllQuestion(QuestionResponeModel filter, PagingModel paging)

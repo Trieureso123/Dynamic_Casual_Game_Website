@@ -1,4 +1,5 @@
-﻿using BusinessTier.Services;
+﻿using BusinessTier.RequestModels;
+using BusinessTier.Services;
 using BusinessTier.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -28,6 +29,25 @@ namespace WebAPI.Controllers
             [FromQuery] PagingModel paging)
         {
             return Ok(_service.GetAllFeedback(filter, paging));
+        }
+
+
+        /// <summary>
+        /// Create a new course
+        /// </summary>
+        /// <param name="FeedbackRequestModel"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public ActionResult<FeedbackResponeModel> CreateCourse(FeedbackRequestModel request)
+        {
+            if (request.IdLesson <= 0 || request.PhoneNumber == "" || request.LessonFeedback == "")
+            {
+                return BadRequest();
+            }
+            else
+            {
+                return _service.CreatFeedback(request);
+            }
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using BusinessTier.Commons;
+using BusinessTier.RequestModels;
 using BusinessTier.ViewModels;
 using DataAccess.Models;
 using DataAccess.Repositories;
@@ -15,6 +16,7 @@ namespace BusinessTier.Services
     public interface IFeedbackService
     {
         BaseResponsePagingViewModel<FeedbackResponeModel> GetAllFeedback(FeedbackResponeModel filter, PagingModel paging);
+        FeedbackResponeModel CreatFeedback (FeedbackRequestModel request);
     }
 
     public class FeedbackService : IFeedbackService
@@ -28,6 +30,18 @@ namespace BusinessTier.Services
             _mapper = mapper;
         }
 
+        public FeedbackResponeModel CreatFeedback(FeedbackRequestModel request)
+        {
+            if (request == null)
+            {
+                return null;
+            }
+            else
+            {
+                var feedback = _mapper.Map<Feedback>(request);
+                return _mapper.Map<FeedbackResponeModel>(_feedbackRepo.Create(feedback));
+            }
+        }
 
         public BaseResponsePagingViewModel<FeedbackResponeModel> GetAllFeedback(FeedbackResponeModel filter, PagingModel paging)
         {

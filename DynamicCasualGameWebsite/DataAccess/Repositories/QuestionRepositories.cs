@@ -24,7 +24,13 @@ namespace DataAccess.Repositories
 
         public Question Create(Question entity)
         {
-            throw new NotImplementedException();
+            if (entity != null)
+            {
+                var result = _context.Questions.Add(entity);
+                _context.SaveChanges();
+                return result.Entity;
+            }
+            return null;
         }
 
         public Question Delete(Question entity)

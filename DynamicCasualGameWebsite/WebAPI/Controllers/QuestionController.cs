@@ -1,4 +1,5 @@
-﻿using BusinessTier.Services;
+﻿using BusinessTier.RequestModels;
+using BusinessTier.Services;
 using BusinessTier.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,7 +13,7 @@ namespace WebAPI.Controllers
         private readonly IQuestionService _service;
         public QuestionController(IQuestionService service)
         {
-            _service = service; 
+            _service = service;
         }
 
 
@@ -30,6 +31,24 @@ namespace WebAPI.Controllers
             return Ok(_service.GetAllQuestion(filter, paging));
         }
 
+
+        /// <summary>
+        /// Create a new course
+        /// </summary>
+        /// <param name="QuestionRequestModel"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public ActionResult<QuestionResponeModel> CreateCourse(QuestionRequestModel request)
+        {
+            if (request.Question1 == "" || request.Email == "" || request.PhoneNumber == "")
+            {
+                return BadRequest();
+            }
+            else
+            {
+                return _service.CreateQuestion(request);
+            }
+        }
 
     }
 }
