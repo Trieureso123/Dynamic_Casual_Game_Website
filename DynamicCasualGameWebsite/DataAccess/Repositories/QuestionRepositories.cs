@@ -24,7 +24,7 @@ namespace DataAccess.Repositories
 
         public Question Create(Question entity)
         {
-            if (entity != null)
+            if (entity.Question1 != "" && entity.Email != "" && entity.PhoneNumber != "")
             {
                 var result = _context.Questions.Add(entity);
                 _context.SaveChanges();

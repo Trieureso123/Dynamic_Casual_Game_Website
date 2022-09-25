@@ -21,7 +21,6 @@ namespace WebAPI.Controllers
         /// Get all courses
         /// </summary>
         /// <param name="filter"></param>
-        /// <param name="filterModel"></param>
         /// <param name="paging"></param>
         /// <returns></returns>
         [HttpGet]

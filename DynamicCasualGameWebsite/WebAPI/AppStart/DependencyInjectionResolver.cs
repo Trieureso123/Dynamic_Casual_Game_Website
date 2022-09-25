@@ -13,6 +13,9 @@ namespace WebAPI.AppStart
 
             services.AddScoped<IFeedbackService, FeedbackService>();
             services.AddScoped<IFeedbackRepositories, FeedbackRepositories>();
+
+            services.AddScoped<ILessonservice, LessonService>();
+            services.AddScoped<ILessonRepositories, LessonRepositories>();
             
             return services;
         }
