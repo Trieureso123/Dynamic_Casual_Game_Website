@@ -48,7 +48,7 @@ insert into Account values ('admin', 'admin', 'admin')
 insert into Category values ('2DProgramming')
 insert into Lesson values(1,'Basic programming with C#', 'https://www.youtube.com/watch?v=gB1F9G0JXOo&ab_channel=freeCodeCamp.org')
 
-
+drop table Question
 
 insert into Description values (1, '9:07','Introducing to Unity interface')
 insert into Description values (1, '22:10','Starting with Unity basic')
