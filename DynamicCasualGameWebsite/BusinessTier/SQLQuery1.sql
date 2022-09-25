@@ -10,7 +10,8 @@ create table Account ( IdAccount int primary key identity(1,1),
 create table Question ( IdQuestion int primary key identity(1,1),
 						Question nvarchar(500),
 						PhoneNumber nvarchar(15),
-						Email nvarchar(100)
+						Email nvarchar(100),
+						CreateDate DateTime
 						)
 
 create table Category ( IdCategory int primary key identity(1,1),
@@ -32,9 +33,8 @@ create table Feedback ( IdFeedback int primary key identity(1,1),
 						IdLesson int foreign key references Lesson(IdLesson),
 						LessonFeedback nvarchar(500),
 						PhoneNumber nvarchar(15),
-						Rating int)
-
-drop table Feedback
+						Rating int,
+						CreateDate DateTime)
 
 select * from Account
 select * from Question
@@ -92,7 +92,7 @@ insert into Description values (1, '7:13:11', 'Instantiating the selected charac
 insert into Description values (1, '7:17:59', 'Finish the game')
 
 
-insert into Question values ('why the unity can make game?', '0712596230', 'lac@gmail.com')
-insert into Feedback values (1, 'i have nothing to say hihi', '236034347', 2)
+insert into Question values ('why the unity can make game?', '0712596230', 'lac@gmail.com', '2022-09-25 08:07:12')
+insert into Feedback values (1, 'i have nothing to say hihi', '236034347', 2, '2022-09-25 08:07:12')
 
 
