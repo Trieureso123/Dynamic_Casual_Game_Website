@@ -12,5 +12,6 @@ namespace BusinessTier.ViewModels
         public int? IdCategory { get; set; }
         public string NameLesson { get; set; }
         public string VideoUrl { get; set; }
+
     }
 }

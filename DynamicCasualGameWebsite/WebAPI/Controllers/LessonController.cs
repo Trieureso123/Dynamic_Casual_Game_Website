@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
 {
+    //[Route("api/Lesson")]
     [Route("api/[controller]")]
     [ApiController]
     public class LessonController : ControllerBase

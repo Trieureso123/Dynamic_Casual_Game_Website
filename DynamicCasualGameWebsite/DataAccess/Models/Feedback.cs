@@ -12,6 +12,7 @@ namespace DataAccess.Models
         public string LessonFeedback { get; set; }
         public string PhoneNumber { get; set; }
         public int? Rating { get; set; }
+        public DateTime CreateDate { get; set; }
 
         public virtual Lesson IdLessonNavigation { get; set; }
     }

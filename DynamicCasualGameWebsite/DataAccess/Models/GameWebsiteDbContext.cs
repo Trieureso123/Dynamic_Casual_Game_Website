@@ -94,6 +94,8 @@ namespace DataAccess.Models
                     .WithMany(p => p.Feedbacks)
                     .HasForeignKey(d => d.IdLesson)
                     .HasConstraintName("FK__Feedback__IdLess__46E78A0C");
+
+                entity.Property(e => e.CreateDate).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<Lesson>(entity =>
@@ -127,6 +129,8 @@ namespace DataAccess.Models
                 entity.Property(e => e.Question1)
                     .HasMaxLength(500)
                     .HasColumnName("Question");
+
+                entity.Property(e => e.CreateDate).HasColumnType("datetime");
             });
 
             OnModelCreatingPartial(modelBuilder);

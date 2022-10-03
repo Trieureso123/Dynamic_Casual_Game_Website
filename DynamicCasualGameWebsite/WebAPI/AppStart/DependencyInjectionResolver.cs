@@ -16,6 +16,9 @@ namespace WebAPI.AppStart
 
             services.AddScoped<ILessonservice, LessonService>();
             services.AddScoped<ILessonRepositories, LessonRepositories>();
+
+            services.AddScoped<IDescriptionService, DescriptionService>();
+            services.AddScoped<IDescriptionRepositories, DescriptionReppsitories>();
             
             return services;
         }

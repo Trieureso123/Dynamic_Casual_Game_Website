@@ -13,6 +13,7 @@ namespace WebAPI.AppStart
                 mc.ConfigQuestionModule();
                 mc.ConfigFeedbackModule();
                 mc.ConfigLessonModule();
+                mc.ConfigDescriptionModule();
             });
             IMapper mapper = mapperConfiguration.CreateMapper();
             services.AddSingleton(mapper);

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
 {
+    //[Route("api/Feedback")]
     [Route("api/[controller]")]
     [ApiController]
     public class FeedbackController : ControllerBase
