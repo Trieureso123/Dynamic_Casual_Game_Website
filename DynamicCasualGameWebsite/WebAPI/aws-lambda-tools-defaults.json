@@ -1,0 +1,11 @@
+{
+  "profile" : "default",
+  "region" : "ap-southease-1",
+  "configuration" : "Release",
+  "framework": "netcoreapp3.1",
+  "s3-prefix": "CoreAPI/",
+  "template": "serverless.template",
+  "template-parameters": "",
+  "s3-bucket": "Lambdabucket",
+  "stack-name": "CoreAPIStack"
+} 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IA3HeHFn3wAH9JbCQiGP+ZQX/AEPx3OTyY73haVWtIcl1eDqR3nnh8Yhd1RRXKk9oQ97ykhWNZ85uGJuwYwJhw==",
+  "dgSpecHash": "nZ0Zi/sQqJmI6mXO+NSn3IeeZqSXXAA7idv3gUGDSfpiIXW0LjqLpAvqJaB/eBC3/mjHhmB4hML+7GrXT7vZPg==",
   "success": true,
-  "projectFilePath": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\WebApplication\\WebApplication.csproj",
+  "projectFilePath": "D:\\OJT_Project\\DynamicCasualGameWebsite_Copy\\WebApplication\\WebApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hai Trieu\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.17\\microsoft.aspnetcore.mvc.razor.extensions.5.0.17.nupkg.sha512",
     "C:\\Users\\Hai Trieu\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.17\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.17.nupkg.sha512",

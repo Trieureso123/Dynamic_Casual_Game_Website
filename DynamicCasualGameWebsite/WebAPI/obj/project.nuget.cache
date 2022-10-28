@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "NABp9ze2gyZTrOTvUMOn0z3DJVoZi4U65HHc5iPaxeTwohusjMKc+dossxOMSY2+PRC/mSo4gwa10BjmUcoTCg==",
+  "dgSpecHash": "u8KxFwxhrAT5Sv1JWbBrEe/2TPXzxxhjLQBLOYp3qMynsjvguXH9gsE1r/d11yWqemM+t9WEcSW3KpzwJCI4bQ==",
   "success": true,
-  "projectFilePath": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "D:\\OJT_Project\\DynamicCasualGameWebsite_Copy\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Hai Trieu\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.4.1\\amazon.lambda.apigatewayevents.2.4.1.nupkg.sha512",
+    "C:\\Users\\Hai Trieu\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.1.0\\amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",
+    "C:\\Users\\Hai Trieu\\.nuget\\packages\\amazon.lambda.aspnetcoreserver\\7.2.0\\amazon.lambda.aspnetcoreserver.7.2.0.nupkg.sha512",
+    "C:\\Users\\Hai Trieu\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\Hai Trieu\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.1.0\\amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512",
+    "C:\\Users\\Hai Trieu\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.0\\amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
     "C:\\Users\\Hai Trieu\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Hai Trieu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Hai Trieu\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

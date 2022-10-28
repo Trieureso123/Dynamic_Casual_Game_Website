@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\WebApplication\\WebApplication.csproj": {}
+    "D:\\OJT_Project\\DynamicCasualGameWebsite_Copy\\WebApplication\\WebApplication.csproj": {}
   },
   "projects": {
-    "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\WebApplication\\WebApplication.csproj": {
+    "D:\\OJT_Project\\DynamicCasualGameWebsite_Copy\\WebApplication\\WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\WebApplication\\WebApplication.csproj",
+        "projectUniqueName": "D:\\OJT_Project\\DynamicCasualGameWebsite_Copy\\WebApplication\\WebApplication.csproj",
         "projectName": "WebApplication",
-        "projectPath": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\WebApplication\\WebApplication.csproj",
+        "projectPath": "D:\\OJT_Project\\DynamicCasualGameWebsite_Copy\\WebApplication\\WebApplication.csproj",
         "packagesPath": "C:\\Users\\Hai Trieu\\.nuget\\packages\\",
-        "outputPath": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\WebApplication\\obj\\",
+        "outputPath": "D:\\OJT_Project\\DynamicCasualGameWebsite_Copy\\WebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

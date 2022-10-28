@@ -6048,11 +6048,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "D:\\OJT_Project\\DynamicCasualGameWebsite_Copy\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\DataAccess\\DataAccess.csproj",
+      "projectPath": "D:\\OJT_Project\\DynamicCasualGameWebsite_Copy\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Hai Trieu\\.nuget\\packages\\",
-      "outputPath": "D:\\OJT_Project\\Dynamic_Casual_Game_Website\\DynamicCasualGameWebsite\\DataAccess\\obj\\",
+      "outputPath": "D:\\OJT_Project\\DynamicCasualGameWebsite_Copy\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
